@@ -1,0 +1,289 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+}
+
+nav h1{
+    color: #000000;
+    font-family: 'Outfit', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+    margin-bottom: -5px;
+}
+
+nav .tab{
+    margin-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 150px ;
+}
+
+nav .content{
+    margin-top: -10px;
+    margin-bottom: 30px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.swiper-slide{
+    height: 100vh;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-left: 100px;
+}
+
+.aa{
+    background-image:url("./../Images/pull-marron.jpg") ;
+    background-size: cover;
+}
+
+.bb{
+    background-image: url("./../Images/pantalons2.jpg");
+    background-size: cover;
+}
+
+.cc{
+    background-image: url("./../Images/chapeau.jpg");
+    background-size: cover;
+}
+
+.slideTitle{
+    font-weight: bold;
+    font-size: 72px;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(196, 196, 196);
+}
+
+.subtitle{
+    font-size: 24px;
+    letter-spacing: 2px;
+    font-size: bold;
+    text-shadow: 2px 1px 1px rgb(196, 196, 196);
+}
+
+body .swiper-pagination-active{
+    background: rgb(0, 157, 126);
+}
+
+body .swiper-button-next,.swiper-button-prev{
+    background: rgba(0, 255, 174, 0.173);
+}
+
+body .swiper-pagination-bullet{
+    width: 18px;
+    height: 18px;
+}
+
+.swiper{
+    height: 100vh;
+}
+
+header h1{
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+}
+header h3{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+main .card{
+    width: 915px;
+    height: 915px;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 12px  25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px  5px;
+    background-image: url("../Images/c-femme.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+main .card2{
+    background-image: url("../Images/c-homme.jpg");
+}
+
+.title{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -20px;
+    margin-bottom: -40px;
+}
+
+footer{
+    margin-top: 40px;
+    background-color: rgb(45, 48, 19);
+    color: #fff;
+    padding: 30px 100px;;
+}
+footer h1{
+    font-family: 'Outfit', sans-serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 150px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+
+@media screen and (max-width:680px){
+    nav .onglet {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+
+    footer{
+        padding: 30px;
+    }
+    main.card{
+        width: 2%;
+    }
+}
+
+.formulaire{
+    position: fixed;
+    cursor: pointer;
+    bottom: 50px;
+    right: 50px;
+    width: 75px;
+    height: 75px;
+    border: none;
+    border-radius: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242424
+}
+
+.dark{
+    background-color: #222222;
+    
+}
+
+.white{
+    color: #fff;
+}
+
+
+
+.swiper-slide {
+    height: 60vh;
+}
+
+.swiper-slide-1 {
+    text-align: center;
+    font-size: 18px;
+    background:#fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-left: 100px;    
+}
+
+.swiper-slide-2 {
+    text-align: center;
+    font-size: 18px;
+    background:#fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-left: 100px;
+}
+
+.swiper-slide-3 {
+    text-align: center;
+    font-size: 18px;
+    background:#fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    padding-left: 100px;
+}
+
+
+.swiper-slide-1 {
+    background-image: url("./../Images/hauts2.jpg");
+    background-size: cover;
+}
+
+.swiper-slide-2 {
+    background-image: url("./../Images/pantalon\ f.jpg");
+    background-size: cover;
+}
+
+.swiper-slide-3 {
+    background-image: url("./../Images/chapeau.jpg");
+    background-size: cover;
+}
+
+.subtitle {
+    color :#fff;
+    font-size: 24px;
+}
+
+.slideTitle {
+    font-weight: bold;
+    font-size: 72px;
+    color:white;
+}
+
+body .swiper-pagination-active {
+    background: rgb(186, 186, 186);
+}
+
+body .swiper-button-next,
+body .swiper-button-prev {
+    color:rgb(45, 48, 19)
+}
+
+ul li{
+    display: inline-block;
+}
+.tab-active{
+    color:rgb(0, 117, 82);
+}
+.content{
+    display: none;
+}
+.active{
+    display: block;
+}

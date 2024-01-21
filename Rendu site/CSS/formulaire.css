@@ -1,0 +1,108 @@
+*{
+    font-size:16px;
+    font-family: sans-serif;
+    margin:0;
+}
+
+body{
+    width: 80%;
+    margin: 80px auto;
+}
+
+form{
+    border: 1px solid rgba(153,153,0.6);
+}
+
+form > div{
+    margin: 30px 20px;
+}
+
+
+label{
+    display: block;
+    margin-bottom:8px;
+}
+
+input{
+    height: 20px;
+    width: 40%;
+}
+
+
+button{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    padding: 10px 32px;
+    cursor: pointer;
+}
+
+
+
+.green{
+    background-color:rgba(113,212,0,0.4);
+    border: 1px solid rgb(81,150,2);
+}
+.red{
+    background-color: red;
+}
+
+
+.message-error{
+    border: 1px solid rgba(212,42,0,1);
+    color: rgb(212,42,0);
+    background-color: rgba(212,42,0,0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.message-error.visible,.message-succes.visible{
+    display:block;
+}
+
+.message-succes{
+    border: 1px solid rgb(81,150,2);
+    color: rgb(81,150,2);
+    background-color: rgba(113,212,0,0.4);
+    padding: 16px 32px;
+    margin-bottom: 20px;
+    display: none;
+}
+
+.swiper-slide {
+    height: 68vh
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: whitesmoke;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .swiper-pagination-active{
+    background: rgba(255, 68, 0, 0.154);
+}
+
+body .swiper-button-next,.swiper-button-prev{
+    background: rgba(255, 68, 0, 0.173);
+}
+
+body .swiper-pagination-bullet{
+    width: 18px;
+    height: 18px;
+}body .swiper-pagination-active{
+    background: rgba(255, 68, 0, 0.154);
+}
+
+body .swiper-button-next,.swiper-button-prev{
+    background: rgba(255, 68, 0, 0.173);
+}
+
+body .swiper-pagination-bullet{
+    width: 18px;
+    height: 18px;
+}
